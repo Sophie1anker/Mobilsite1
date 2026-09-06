@@ -1,0 +1,28 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*************** fonts *********************/
+
+@font-face {
+  font-family: "charis_silregular";
+  src:
+    url("./fonts/charissil-regular.woff2") format("woff2"),
+    url("./fonts/charissil-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*************** andet css *********************/
+h1 {
+  color: blueviolet;
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
