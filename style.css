@@ -8,21 +8,54 @@ img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 40px;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
-/*************** fonts *********************/
+/*************** fonts download *********************/
 
 @font-face {
-  font-family: "charis_silregular";
+  font-family: "slabo_13pxregular";
   src:
-    url("./fonts/charissil-regular.woff2") format("woff2"),
-    url("./fonts/charissil-regular.woff") format("woff");
+    url("./fonts/slabo13px-regular.woff2") format("woff2"),
+    url("./fonts/slabo13px-regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
-/*************** andet css *********************/
+
 h1 {
   color: blueviolet;
-  font-family: "Chewy", system-ui;
+  font-family: "Londrina Shadow", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+h2 {
+  color: deeppink;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-block: 1rem 0.8rem;
+}
+
+h3 {
+  color: blue;
+  margin-block: 2rem 0.5rem;
+}
+
+p {
+  font-family: "slabo_13pxregular";
+}
+
+/*************** andet css *********************/
+body {
+  padding: 1rem;
+}
+
+footer {
+  color: cornflowerblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-block: 3rem 0.8rem;
 }
